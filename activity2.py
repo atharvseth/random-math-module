@@ -14,3 +14,16 @@ while True :
             print("rocks smashes scissors !!! yopu win!!")
         else:
             print("paper cover rock!! , you loose!!")
+    elif user_action == "paper":
+        if computer_action =="rock":
+            print("paper covers rock !!! yopu win!!")
+        else:
+            print("scissor cut paper!! , you loose!!")
+    elif user_action == "scissors":
+        if computer_action =="paper":
+            print("scissors  cut paper !!! yopu win!!")
+        else:
+            print("rock smashes scissor !! , you loose!!")
+    play_again = input("play again ?(y/n)")
+    if play_again != "y":
+        break
